@@ -1,3 +1,8 @@
+/* AUTHOR NOTE: This Odin project is focused on replicating the website below
+It hasn't been formatted for mobile devices just yet
+Instructions are to clone the webpage located at:
+https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png */
+
 body {
     font-family: "roboto", sans-serif;
     background: rgb(160, 160, 160);
@@ -5,7 +10,6 @@ body {
     flex-direction: column;
     margin: 0;
 }
-
 
 /* section1 section1 section1 section1 section1 section1 section1 */
 
@@ -81,8 +85,15 @@ button {
     margin-top: 10px;
 }
 
-
 .glacier-image {
     width: 415px;
     height: auto;
+}
+
+/* section2 section2 section2 section2 section2 section2 section2 section2 */
+
+.section1 {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
