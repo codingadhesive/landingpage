@@ -92,8 +92,71 @@ button {
 
 /* section2 section2 section2 section2 section2 section2 section2 section2 */
 
-.section1 {
-    background: #1F2937;
+.section2 {
+    background: #ffffff;
     display: flex;
     flex-direction: column;
+    align-items: center; 
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boxes-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box1section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    color: #7189aa;
+}
+
+.box1image {
+    border-width: 3px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 125px;
+    height: 125px;
+}
+
+.box2image {
+    border-width: 3px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 125px;
+    height: 125px;
+}
+
+.box3image {
+    border-width: 3px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 125px;
+    height: 125px;
+}
+
+.box4image {
+    border-width: 3px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 125px;
+    height: 125px;
 }
