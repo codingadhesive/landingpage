@@ -205,3 +205,56 @@ button {
 }
 
 /* section 3 section 3 section 3 section 3 section 3 section 3 */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 300px 75px 300px;
+    background-color: #E5E7EB;
+
+}
+
+.inspire-quote-body {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+.inspire-quote-author {
+    font-size: 18px;
+    text-align: right;
+    
+}
+
+/* section 4 section 4 section 4 section 4 section 4 section 4 */
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    padding: 75px 300px 75px 300px;
+    background-color: #ffffff;
+    color: #F9FAF8;
+}
+
+.call-to-action-section {
+    border: 3px;
+    border-style: solid;
+    border-color: #3882F6;
+    background: #3882F6;
+    border-radius: 7px; 
+    padding: 35px;
+    display: flex;
+    color: #F9FAF8;
+    flex-direction: row;
+    
+}
+
+.call-claim {
+    font-size: 24px;
+}
+
+.call-signup {
+    font-size: 24px;
+    color: #F9FAF8;
+}
