@@ -18,8 +18,10 @@ body {
 .header-logo-area {
     display: flex;
     margin-top: 20px;
+    margin-bottom: 60px;
     margin-right: 100px;
     margin-left: 100px;
+    justify-content: space-between;
 }
 
 .header-logo {
@@ -37,14 +39,19 @@ body {
 
 .awesome-section {
     display: flex; 
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-right: 100px;
     margin-left: 100px;
+    margin-bottom: 60px;
+
 }
 
 .left-part {
     display: flex;
     flex-direction: column;
+    wrap: wrap;
+    margin-right: 100px;
+    padding-right: 100px;
 }
 
 .website-awesome {
@@ -58,9 +65,24 @@ body {
     color: #E5E7EB;
 }
 
+.signup-button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    border-radius: 7px;
+    height: 30px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 120px;
+    border: none;
+    margin-top: 10px;
+}
 
 
 .glacier-image {
-    width: 200px;
+    width: 415px;
     height: auto;
 }
